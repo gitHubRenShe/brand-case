@@ -6,7 +6,7 @@ import org.apache.ibatis.annotations.*;
 import java.util.List;
 
 public interface BrandMapper {
-    /**
+    /**版本4
      * 查询所有
      * @return
      */
