@@ -6,7 +6,7 @@ import org.apache.ibatis.annotations.*;
 import java.util.List;
 
 public interface BrandMapper {
-    /**版本6
+    /**版本6 push
      * 查询所有
      * @return
      */
@@ -15,8 +15,8 @@ public interface BrandMapper {
     List<Brand> selectAll();
 
     /**
-     * 添加数据
-     * @param brand
+     * 添加数据a
+     * @param
      */
     @Insert("insert into db1.tb_brand values(null,#{brandName},#{companyName},#{ordered},#{description},#{status})")
     void add(Brand brand);
